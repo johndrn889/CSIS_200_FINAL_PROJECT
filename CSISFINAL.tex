@@ -28,7 +28,34 @@ CSIS Final
 	To calculate the time that you and the raptor meet, we used another for loop. We set both of the equations equal to variables and then set them equal to a boolean to return the value of the time at which they two equations are equal. 
 	To calculate the time when the raptor is a meter behind you, we used the same for loop but instead changing the raptor equation to {\it $y=18x+1$}.  And for the plot we used the same code for the first plot but we added in {\it $plt.arrow(1.94,21,0.0,10,head_width=.1,head_length=3)$ } to create an arrow pointing at the point of where the raptor is 1m behind. 
 	
+\section{Equations}
+I used the formula $y=mx+b$ to make the equations for the lines. The slope would be velocity and the y-intercept would be the intial distance of either the raptor or you. 
+$$y=3x+30$$
+$$y=18x$$
 
-\section{Other stuff}
+To solve for how long it took the raptor to catch up to you I set the distance formula of the raptor equal to the distance of you:
+$$ x_0 + v_ot +\frac{1}{2}at^2=x_0 + v_ot +\frac{1}{2}at^2$$
+
+
+To find the probability of the raptor biting during the chase i used:
+$$chase probability= (amount of escapes/number of tries) *100$$
+
+
+
+
+\section{Graphs}
+\begin{figure} 
+   
+    \includegraphics[width=0.5\textwidth]{PvsT1.png}
+    \caption{This is the position vs. time graph when you and the raptor meet.\label{fig:graph}}
+\end{figure}
+\begin{figure} 
+   
+    \includegraphics[width=0.5\textwidth]{PvsT2.png}
+    \caption{This is the position vs. time graph when the raptor is a meter behind you.\label{fig:graph}}
+\end{figure}
+
+
+
 
 \end{document}
